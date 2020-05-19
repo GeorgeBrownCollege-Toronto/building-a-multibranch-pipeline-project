@@ -35,5 +35,6 @@ set +x
 
 echo 'Now...'
 echo 'Visit http://localhost:5000 to see your Node.js/React application in action.'
+echo 'if you are running on docker-toolbox visit http://<docker-machine-ip>:5000.'
 echo '(This is why you specified the "args ''-p 5000:5000''" parameter when you'
 echo 'created your initial Pipeline as a Jenkinsfile.)'
